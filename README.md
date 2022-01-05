@@ -1,5 +1,11 @@
 # AmigaSID Zorro II card
 
+Board Render Front           |  Board Render Back
+:-------------------------:|:-------------------------:
+![Board Render Front](Pictures/AmigaSID_Render_Front.jpg "Board Render Front") | ![Board Render Back](Pictures/AmigaSID_Render_Back.jpg "Board Render Back")
+
+[Schematic PDF](Hardware/AmigaSID-schematic.pdf)
+
 Forked from https://github.com/Sgw32/AmigaSID which forked from http://www.amibay.com/showthread.php?108629-Amiga-SID-player-for-Zorro-slot
 
 Can't find the original thread on Amibay sadly, so i can't do full credits here.
@@ -17,7 +23,7 @@ Can't find the original thread on Amibay sadly, so i can't do full credits here.
 - Changed audio connector to a more common type
 - Moved filter caps closer to IC's
 - Added logo
-- Floating 245 inputs tied to VCC
+- Floating 74LS00 inputs tied to VCC
 - Flipped polarity on C10 (SID_AUDIO_IN)
 - Added jumper to disconnect audio out cap from output pins
   - instead you now can fit a little amp board like shown Gadgets video about the original version of the card
