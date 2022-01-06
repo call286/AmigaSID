@@ -32,6 +32,7 @@ Can't find the original thread on Amibay sadly, so i can't do full credits here.
 Thanks to [LIV2](https://github.com/LIV2) and [GadgetUK](https://www.youtube.com/channel/UCRBWJ9JeJ3Q8ssn_ibii-Cg) for the help in this project.
 
 Use at your own risk!!!
+As of now (06.01.2021) i haven't tested that, not even ordered boards!
 
 ## Jumper setting
 
@@ -50,7 +51,7 @@ Jumper setting for EE range:
 | JP8     |  2-3 (HIGH)  |
 | JP9     |  2-3 (HIGH)  |
 
-![Jumper Settings EE Range](Pictures/AmigaSID_Render_Front.jpg "Jumper Settings EE Range")
+![Jumper Settings EE Range](Pictures/AmigaSI_Jumpers_EE_Range.jpg "Jumper Settings EE Range")
 
 ## Folder: Hardware
 
@@ -63,3 +64,4 @@ Here you'll find patched versions of players to use on the Amiga.
 
 ## TODO
 - Add more/better documentation
+- Test the Hardware, order boards
