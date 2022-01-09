@@ -4,6 +4,10 @@
 
   (paper "A3")
 
+  (title_block
+    (rev "2")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC245" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 16.51 0)
@@ -2255,7 +2259,6 @@
     )
   )
 
-
   (junction (at 326.39 110.49) (diameter 0) (color 0 0 0 0)
     (uuid 026ac84e-b8b2-4dd2-b675-8323c24fd778)
   )
@@ -4212,7 +4215,7 @@
     (uuid 00000000-0000-0000-0000-00005fb3d287)
     (property "Reference" "H1" (id 0) (at 100.2538 105.7402 90))
     (property "Value" "SID_/RST" (id 1) (at 100.2538 108.0516 90))
-    (property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" (id 2) (at 100.33 111.76 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 100.33 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 111.76 0)
@@ -4304,7 +4307,7 @@
     (uuid 00000000-0000-0000-0000-00005fbb894c)
     (property "Reference" "U4" (id 0) (at 316.23 82.7532 0))
     (property "Value" "LM7809_TO220" (id 1) (at 316.23 85.0646 0))
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 316.23 83.185 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" (id 2) (at 316.23 83.185 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" (id 3) (at 316.23 90.17 0)
@@ -4367,7 +4370,7 @@
     (uuid 00000000-0000-0000-0000-00005fc18e65)
     (property "Reference" "JP10" (id 0) (at 377.19 74.3204 0))
     (property "Value" "12V/9V" (id 1) (at 377.19 76.6318 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 377.19 80.01 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (id 2) (at 377.19 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 377.19 80.01 0)
@@ -5857,7 +5860,7 @@
       (reference "CON1") (unit 1) (value "ZorroII") (footprint "AmigaSID:ZorroII")
     )
     (path "/00000000-0000-0000-0000-00005fb3d287"
-      (reference "H1") (unit 1) (value "SID_/RST") (footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork")
+      (reference "H1") (unit 1) (value "SID_/RST") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005fd024e7"
       (reference "J1") (unit 1) (value "AudioJack3") (footprint "Audio_More:Jack_3.5mm_4UCON")
@@ -5902,7 +5905,7 @@
       (reference "JP9") (unit 1) (value "JPR7") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005fc18e65"
-      (reference "JP10") (unit 1) (value "12V/9V") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JP10") (unit 1) (value "12V/9V") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
     )
     (path "/126aec73-f420-4da1-a51b-89f22b12639d"
       (reference "JP11") (unit 1) (value "Disconnect C11 from Audio OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -5950,7 +5953,7 @@
       (reference "U3") (unit 1) (value "SID") (footprint "Package_DIP:DIP-28_W15.24mm_Socket_LongPads")
     )
     (path "/00000000-0000-0000-0000-00005fbb894c"
-      (reference "U4") (unit 1) (value "LM7809_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+      (reference "U4") (unit 1) (value "LM7809_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
     (path "/747da935-1933-4026-b877-fa1c87754b64"
       (reference "U5") (unit 1) (value "74HC245") (footprint "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm")

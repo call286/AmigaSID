@@ -29,3 +29,11 @@ fp-info-cache
 
 # Backups
 AmigaSID-backups
+
+# Gerber single files
+**/*.gbr
+**/*.drl
+
+# JLCPCB plugin files
+**/project.db
+
