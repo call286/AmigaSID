@@ -32,7 +32,9 @@ Can't find the original thread on Amibay sadly, so i can't do full credits here.
 Thanks to [LIV2](https://github.com/LIV2) and [GadgetUK](https://www.youtube.com/channel/UCRBWJ9JeJ3Q8ssn_ibii-Cg) for the help in this project.
 
 Use at your own risk!!!
-As of now (06.01.2021) i haven't tested that, not even ordered boards!
+~~As of now (06.01.2021) i haven't tested that, not even ordered boards!~~
+Boards were kindly provided by SparxUK - Thanks mate!
+The boards worked fine on my A500 with a Zorro2 adapter and a NanoSwinSID.
 
 ## Jumper setting
 
@@ -64,4 +66,5 @@ Here you'll find patched versions of players to use on the Amiga.
 
 ## TODO
 - Add more/better documentation
-- Test the Hardware, order boards
+- ~~Test the Hardware, order boards~~
+  - Boards were kindly provided by SparxUK
